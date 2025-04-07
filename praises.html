@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criticisms</title>
+
+    <style> 
+        *{
+            text-decoration: none;
+            margin: 0;
+            font-family: "Source Sans 3", serif;
+            
+            color: #f9f3e9;
+          }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: #5c2020;
+            padding: 20px;
+            text-align: center;
+            align-items: center
+          }
+          nav ul{
+            display: flex;
+            padding-left: 0;
+          }
+          nav ul li{
+            list-style: none;
+            margin: 0 10px;
+          }
+          nav ul li a{
+            padding: 10px;
+            border-radius: 3px;
+          }
+          .images {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            margin: 0 auto;          
+            padding: 20px;
+          }
+          .images > div {
+            display: flex;
+            gap: 10px;
+           
+          }  
+          body {
+            background-color: #f9f3e9;
+            margin: 0;
+            font-family: 'SimSun', '宋体', serif;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .cdrama-image-group {
+            text-align: center;
+        }
+        .cdrama-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 1px solid #d4a373;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .cdrama-caption {
+            margin-top: -5px;
+        }
+        .caption-border {
+            border: 1px solid #8b3a3a;
+            padding: 15px 20px;
+            background: linear-gradient(to bottom, #fff8f8, #fff0f0);
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .caption-border::before,
+        .caption-border::after {
+            content: "❀";
+            position: absolute;
+            color: #8b3a3a;
+            font-size: 16px;
+            opacity: 0.7;
+        }
+        .caption-border::before {
+            top: 5px;
+            left: 10px;
+        }
+        .caption-border::after {
+            top: 5px;
+            right: 10px;
+        }
+        .caption-text {
+            color: #5c2020;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .home_menu a:hover {
+            color: #ffd700; /* Gold */
+            text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Menu Items - Ink Brush Underline Effect */
+        .menu-container li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffd700; /* Gold */
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+        
+        .menu-container li a:hover::after {
+            width: 100%;
+            left: 0;
+            transform: translateX(0);
+        }
+        
+        /* Menu Items - Rising Effect */
+        .menu-container li a:hover {
+            color: #ffd700;
+            transform: translateY(-3px);
+        }
+        
+        /* Active Page Indicator */
+        .menu-container li a:active {
+            color: #d4a373; /* Light brown */
+        }
+        
+        /* Chinese Seal Press Effect */
+        .menu-container li a:active::after {
+            height: 3px;
+            background: #5c2020; /* Dark red */
+            transition: none; /* Instant "stamp" effect */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="home_menu"><a href="index.html" class="home_menu">Home</div>
+        <ul class="menu-container">
+          <li class="Progress_menu"><a href="criticisms.html">Criticisms</a></li>
+          <li class="Praises_menu"><a href="praises.html">Praises</a></li>
+        
+        </ul>
+     </nav>
+    <section>
+        <div class="gallery">
+            <!-- Item 1 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="p1.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br>  
+                            The Iron Girls movement encouraged women to join a cause greater than themselves and praised them for their labor. The movement promoted labor equality and empowered many women. While Cdramas still grapple with regressive tropes, women have seen tentative strides toward women’s empowerment. Women in Cdramas are being considered in more complicated ways; there are more diverse portrayals that show women as martial artists and gods. Furthermore, more roles portray women as more than just innocent, naive, and hyper-feminine.  Genres such as Xianxia (fantasy) and republican-era dramas allow for greater female agency. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="p2.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> The increasing visibility of ethnic minority actors marks a significant shift in Cdramas. Women of different ethnic groups are receiving more representation. Uyghur actress Dilraba Dilmurat is one of the most popular female actresses. She was cast in some of China’s most popular dramas such as “The Long Ballad” and “Eternal Love” that challenge the Han-dominated beauty standards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="p3.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                           <br> Iron Girls allowed rural women to be more than just passive recipients of Mao's state into celebrated laborers. Their labor was visibly tied to national development. Cdrama mirrors this by portraying educated, professional women. Recent dramas show women thriving in traditionally male-dominated fields. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="p4.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> 
+                            Modern Cdramas are increasingly portraying women in diverse, multidimensional ways that challenge traditional hyper-feminine stereotypes. “Everyone Loves Me” aired in 2024, is a perfect example of the complex representation of women. Qian Ling is described as a force and direct woman who is a professional gamer in a tactical shooter. The lyrics reject one-dimensional femininity. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="p5.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> The Iron Girls of the Mao era and today’s sword-wielding Cdrama heroines may seem worlds apart, but they both function as cultural symbols of women’s strength. Where the Iron Girls promoted state-mandated equality through labor, modern Cdramas offer a more individualized, entertainment-driven vision of empowerment. 
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

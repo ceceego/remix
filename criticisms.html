@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criticisms</title>
+
+    <style> 
+        *{
+            text-decoration: none;
+            margin: 0;
+            font-family: "Source Sans 3", serif;
+            
+            color: #f9f3e9;
+          }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: #5c2020;
+            padding: 20px;
+            text-align: center;
+            align-items: center
+          }
+          nav ul{
+            display: flex;
+            padding-left: 0;
+          }
+          nav ul li{
+            list-style: none;
+            margin: 0 10px;
+          }
+          nav ul li a{
+            padding: 10px;
+            border-radius: 3px;
+          }
+          .images {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            margin: 0 auto;          
+            padding: 20px;
+          }
+          .images > div {
+            display: flex;
+            gap: 10px;
+           
+          }  
+          body {
+            background-color: #f9f3e9;
+            margin: 0;
+            font-family: 'SimSun', '宋体', serif;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .cdrama-image-group {
+            text-align: center;
+        }
+        .cdrama-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 1px solid #d4a373;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .cdrama-caption {
+            margin-top: -5px;
+        }
+        .caption-border {
+            border: 1px solid #8b3a3a;
+            padding: 15px 20px;
+            background: linear-gradient(to bottom, #fff8f8, #fff0f0);
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .caption-border::before,
+        .caption-border::after {
+            content: "❀";
+            position: absolute;
+            color: #8b3a3a;
+            font-size: 16px;
+            opacity: 0.7;
+        }
+        .caption-border::before {
+            top: 5px;
+            left: 10px;
+        }
+        .caption-border::after {
+            top: 5px;
+            right: 10px;
+        }
+        .caption-text {
+            color: #5c2020;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .home_menu a:hover {
+            color: #ffd700; /* Gold */
+            text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Menu Items - Ink Brush Underline Effect */
+        .menu-container li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffd700; /* Gold */
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+        
+        .menu-container li a:hover::after {
+            width: 100%;
+            left: 0;
+            transform: translateX(0);
+        }
+        
+        /* Menu Items - Rising Effect */
+        .menu-container li a:hover {
+            color: #ffd700;
+            transform: translateY(-3px);
+        }
+        
+        /* Active Page Indicator */
+        .menu-container li a:active {
+            color: #d4a373; /* Light brown */
+        }
+        
+        /* Chinese Seal Press Effect */
+        .menu-container li a:active::after {
+            height: 3px;
+            background: #5c2020; /* Dark red */
+            transition: none; /* Instant "stamp" effect */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="home_menu"><a href="index.html" class="home_menu">Home</div>
+        <ul class="menu-container">
+          <li class="Progress_menu"><a href="criticisms.html">Criticisms</a></li>
+          <li class="Praises_menu"><a href="praises.html">Praises</a></li>
+        </ul>
+     </nav>
+    <section>
+        <div class="gallery">
+            <!-- Item 1 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="c1.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> One of the strongest oppositions to the Iron Girls movement was the urban elites that dismissed the posters as failed gender politics. Educated elite men felt threatened by the imagery of strong women and painted them as unattractive, while urban women felt that it suppressed a woman's “natural femininity.” These criticisms are far from gone. As female leads are given more diverse and dynamic roles; there is still backlash against the expansion of women's roles in dramas. In 2022, television adaptations of gay-themed plots were banned. With this ban, female actors were discouraged from looking masculine. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="c2.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> The portrayal of women in Cdramas remained heavily focused on romance, with marriage and motherhood framed as the ultimate goals. While women can have side plots that include school, work, or friendships, their narratives are always tied to the male lead. A persistent trope that presides is that no matter how capable a woman is, she will inevitably be “saved” by a man. This trope undermines female agency but also conditions audiences to view male protection as romantic. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="c3.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                           <br> The encouragement of women's work was seen as unnatural and breaking from traditional Confucian gender roles that confined women’s places to raising children and doing domestic work. Despite modernization, this cultural expectation lingers in Cdramas. Accomplished female characters are frequently written into narratives that culminate in marriage and motherhood, often at the expense of their careers or ambitions. For instance, a female martial artist might lay down their sword to raise children and leave her martial arts clan to do so. While women are allowed to excel professionally, their success is often narratively returned to traditional roles. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="c4.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> Wulin Heroes follows Ye Xi, a spirit who can’t die, who is known as one of the greatest martial artists of her generation. The only problem is, that she doesn't understand that human men have deceitful sides. Her story revolves around constantly being lied to, used, and murdered by her male lovers. Despite this fact, she refused to give up on trying to find love. Her song lyrics describe how she is powerful, but ultimately is looking for love. Thankfully, she can find one good man (out of like 4 murderers, her luck is crazy) who will protect her from all the rest of her ex-lovers. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="cdrama-image-group">
+                <img 
+                    src="c5.png" 
+                    class="cdrama-image"
+                > <br><br>
+                <div class="cdrama-caption">
+                    <div class="caption-border">
+                        <p class="caption-text">
+                            <br> While Iron Girls received praise and encouragement for their labor. Women were denied career advancements. The disparity is also seen in modern Cdramas, where power remains overwhelmingly in the hands of men. Generals, clan leaders, and CEOS are predominantly male, while women in authority are rare exceptions, often framed as in need of the main character's guidance or controversial. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
